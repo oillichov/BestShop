@@ -17,3 +17,67 @@
 * {
     box-sizing: border-box;
 }
+
+.header {
+    width: 100vw;
+    height: 70px;
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    align-self: center;
+
+}
+
+.container {
+    width: 1352px;
+}
+
+.nav__element {
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3px;
+    color: var(--color-black);
+    opacity: 1;
+    padding: 0 95px 0 95px;
+
+
+}
+
+.nav__link {
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 25px;
+}
+.nav__link:hover {
+    color: var(--color-grey);
+    border-bottom: 4px solid #08A6E4;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__nav li {
+    align-self: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font: normal normal 300 32px/37px Raleway;
+    letter-spacing: 0px;
+    color: #08A6E4;
+    opacity: 1;
+    text-decoration: none;
+    padding-left: 136px;
+}
