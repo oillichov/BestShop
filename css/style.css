@@ -65,7 +65,7 @@
 }
 
 
-.header__container  {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@
     text-align: left;
     font: normal normal 300 32px/37px Raleway;
     letter-spacing: 0px;
-    color: #08A6E4;
+    color: var(--color-primary);
     opacity: 1;
     text-decoration: none;
     padding-left: 136px;
@@ -95,14 +95,15 @@
 
     font: normal normal normal 49px/57px Raleway;
     letter-spacing: 0px;
-    color: #000000;
+    color: var(--color-black);
+    padding-bottom: 20px;
 }
 
-p {
-
+.p1 {
+    padding-bottom: 38px;
     font: normal normal normal 16px/22px Open Sans;
     letter-spacing: 0px;
-    color: #000000;
+    color: var(--color-black);
 }
 
 .button {
@@ -111,17 +112,19 @@ p {
     align-items: center;
     width: 440px;
     height: 67px;
-    background: #08A6E4 0% 0% no-repeat padding-box;
+    background: var(--color-primary) 0% 0% no-repeat padding-box;
     box-shadow: 5px 10px 14px #07ACE629;
     border-radius: 40px;
+    border: none;
 
 
 }
 
-.button_text {
+.button__text {
+    text-align: center;
     font: normal normal bold 16px/22px Open Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: var(--color-white);
     text-decoration: none;
 }
 
@@ -131,4 +134,15 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
+
+}
+
+.background__image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/Background.png") ;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
