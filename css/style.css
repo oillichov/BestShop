@@ -7,8 +7,6 @@
     --color-grey: #A5A5A5;
     --color-light-grey: #F7F7F7;
     --color-white: #FFFFFF;
-    --color-grey: #a5a5a5;
-    --color-light-grey: #f7f7f7;
     --button-radius: 35px;
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
@@ -22,16 +20,17 @@
     width: 100vw;
     height: 70px;
     background-color: var(--color-white);
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0 3px 6px #00000029;
     opacity: 1;
     display: flex;
     align-self: center;
-
 }
+
 
 .container {
     width: 1352px;
 }
+
 
 .nav__element {
     font: normal normal bold 11px/15px Open sans;
@@ -39,16 +38,14 @@
     letter-spacing: 3px;
     color: var(--color-black);
     opacity: 1;
-    padding: 0 95px 0 95px;
-
-
+    padding: 0 47px 0 47px;
 }
+
 
 .nav__link {
     text-align: center;
     text-decoration: none;
     padding-bottom: 25px;
-
 }
 
 
@@ -69,7 +66,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -83,7 +79,7 @@
     justify-content: space-between;
     text-align: left;
     font: normal normal 300 32px/37px Raleway;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: var(--color-primary);
     opacity: 1;
     text-decoration: none;
@@ -91,20 +87,21 @@
 }
 
 
-.h1 {
+.h__open {
 
     font: normal normal normal 49px/57px Raleway;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: var(--color-black);
     padding-bottom: 20px;
 }
 
-.p1 {
+.p__open {
     padding-bottom: 38px;
     font: normal normal normal 16px/22px Open Sans;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: var(--color-black);
 }
+
 
 .button {
     display: flex;
@@ -112,31 +109,30 @@
     align-items: center;
     width: 440px;
     height: 67px;
-    background: var(--color-primary) 0% 0% no-repeat padding-box;
+    background: var(--color-primary) 0 0% no-repeat padding-box;
     box-shadow: 5px 10px 14px #07ACE629;
     border-radius: 40px;
     border: none;
-
-
 }
+
 
 .button__text {
     text-align: center;
     font: normal normal bold 16px/22px Open Sans;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: var(--color-white);
     text-decoration: none;
 }
 
 
-.section {
+.section__open {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-
 }
+
 
 .background__image {
     width: 100vw;
@@ -146,3 +142,4 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
