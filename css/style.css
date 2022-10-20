@@ -46,6 +46,7 @@
     text-align: center;
     text-decoration: none;
     padding-bottom: 25px;
+    cursor: pointer;
 }
 
 
@@ -89,15 +90,16 @@
 
 .h__open {
 
-    font: normal normal normal 49px/57px Raleway;
+    font: normal normal normal 49px/57px var(--font-raleway);
     letter-spacing: 0;
     color: var(--color-black);
     padding-bottom: 20px;
 }
 
+
 .p__open {
     padding-bottom: 38px;
-    font: normal normal normal 16px/22px Open Sans;
+    font: normal normal normal 16px/22px var(--font-open-sans);
     letter-spacing: 0;
     color: var(--color-black);
 }
@@ -143,3 +145,111 @@
     background-repeat: no-repeat;
 }
 
+
+.section__stat {
+    width: 100vw;
+    height: 531px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.data {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.h__stat {
+    text-align: center;
+    font: normal normal normal 36px/42px var(--font-raleway);
+    letter-spacing: 0;
+    color: var(--color-black);
+    margin: 100px 0 100px;
+}
+
+
+.result {
+    text-align: center;
+    font: normal normal 800 20px/24px var(--font-raleway);
+    letter-spacing: 6px;
+    color: var(--color-black);
+    padding: 14px 0 19px 0;
+    display: flex;
+
+}
+
+
+.comment {
+    text-align: center;
+    font: normal normal normal 17px/20px Raleway;
+    letter-spacing: 0;
+    color: #A5A5A5;
+}
+
+.data__section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: 92px;
+}
+
+
+.img__stat__eye {
+    width: 65px;
+    height: 36px;
+    background-image: url("../assets/Eye.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+.img__stat__catalog {
+    width: 52px;
+    height: 48px;
+    background-image: url("../assets/Catalog.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+.img__stat__person {
+    width: 44px;
+    height: 52px;
+    background-image: url("../assets/Person.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+.data__section__background__person {
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-redish);
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.data__section__background__eye {
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.data__section__background__catalog {
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-green);
+    border-radius: 50%;
+    position: relative;
+}
