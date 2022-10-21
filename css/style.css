@@ -93,6 +93,7 @@ h1 {
     font: normal normal normal 49px/57px var(--font-raleway);
     letter-spacing: 0;
     color: var(--color-black);
+    margin-top: 100px;
 }
 
 
@@ -126,7 +127,7 @@ h1 {
 }
 
 
-.section__open {
+.open {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,7 +147,7 @@ h1 {
 }
 
 
-.section__stat {
+.stat {
     width: 100vw;
     height: 531px;
     display: flex;
@@ -159,15 +160,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-}
-
-
-.h__stat {
-    text-align: center;
-    font: normal normal normal 36px/42px var(--font-raleway);
-    letter-spacing: 0;
-    color: var(--color-black);
-    margin: 100px 0 100px;
+    margin-top: 100px;
 }
 
 
@@ -178,7 +171,6 @@ h1 {
     color: var(--color-black);
     padding: 14px 0 19px 0;
     display: flex;
-
 }
 
 
